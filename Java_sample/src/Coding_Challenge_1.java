@@ -13,7 +13,7 @@ public class Coding_Challenge_1 {
 			String n1 = "";
 			
 			Thread.sleep(1000);
-	boolean n11 = driver.findElement(By.cssSelector("span.rts-counter")).isDisplayed();
+			boolean n11 = driver.findElement(By.cssSelector("span.rts-counter")).isDisplayed();
 			if(n11 == true){
 				n1 = driver.findElement(By.cssSelector("div.maincounter-number span")).getText();
 				
