@@ -18,7 +18,7 @@ public class Date_Picker_Current_date {
 //			
 //		driver.findElement(By.cssSelector("div#ui-datepicker-div td.ui-datepicker-days-cell-over.ui-datepicker-today a")).click();
 		System.out.println("Elements loaded");
-		driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight")).click();
+		driver.findElement(By.cssSelector(";/.ui-state-default.ui-state-highlight")).click();
 		driver.close();
 //		
 		driver.quit();
