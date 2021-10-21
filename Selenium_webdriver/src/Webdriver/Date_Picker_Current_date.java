@@ -20,7 +20,6 @@ public class Date_Picker_Current_date {
 		System.out.println("Elements loaded");
 		driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight")).click();
 		driver.close();
-//		
 		driver.quit();
 		
 		}
