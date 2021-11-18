@@ -17,13 +17,13 @@ public class Auto_suggestive_dropdown {
 		driver.findElement(By.id("autosuggest")).sendKeys("Ind");
 		Thread.sleep(1000);
 		List<WebElement> Options = driver.findElements(By.xpath("//li[@class='ui-menu-item']/a"));                                                                                                                                                                                                                                                                                                                                                                                              
-		for(WebElement Option :Options)
+		for(WebElement element :Options)
 		{
-			if(Option.getText().equalsIgnoreCase("India"))
+			if(element.getText().equalsIgnoreCase("India"))
 			
 			{
-				System.out.println(Option.getText());
-				Option.click();
+				System.out.println(element.getText());
+				element.click();
 				break;
 			}
 			
